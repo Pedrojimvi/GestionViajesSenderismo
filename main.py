@@ -1,31 +1,9 @@
-"""Los objetos que se usarán serán los siguientes:
-
-- La ventana tendrá un título en la parte superior que diga “Agencia de Viajes”.
-- Una etiqueta (Label) que indique “Viajes de Senderismo”
-- Un logo de la empresa como imagen en la ventana
-- 4 Radiobutton para seleccionar la excursión que desea realizar el cliente: Monte Abantos,
-La Pedriza, Las dehesas de Cercedilla y La Cabrera-Pico de la Miel.
-- 8 Checkbutton para poder elegir los accesorios que llevarán a la excursión: Mochila,
-Linterna, GPS, Mapa, Prismáticos, Cantimplora, Botiquín y Crema Solar.
-
-- Unas etiquetas para indicar el contenido que debe tener los cuadros de texto.
-- Unos cuadros de texto para introducir los datos del excursionista: Nombre, Apellidos,
-Dirección y Teléfono.
-- Un Combobox que contenga los nombres de las poblaciones de los posibles excursionistas
-para que se seleccione aquella de donde es un excursionista determinado: Madrid,
-Alcobendas, San Sebastián de los Reyes, Algete, Pozuelo, Las Rozas, Majadahonda, Móstoles,
-Alcorcón, Boadilla del Monte y Villaviciosa de Odón.
-- Un cuadro de lista o Listbox.
-- Un botón que introduzca todos los datos de un excursionista en el cuadro de lista o Listbox.
-En este Listbox se irán agregando los datos de todos los excursionistas que se vayan dando
-de alta. """
-
 from tkinter import *
 from tkinter import ttk
 
 ventana = Tk()
 ventana.title("Agencia de Viajes")
-ventana.geometry("800x800")
+ventana.geometry("750x740")
 
 # Etiqueta
 etiqueta = Label(ventana, text="Viajes de Senderismo")
